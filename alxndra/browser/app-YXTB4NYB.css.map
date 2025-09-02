@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["app.ts"],
-  "sourcesContent": ["\n        /* Custom drawer styles for better mobile experience */\n        :host ::ng-deep .custom-drawer .p-drawer-content {\n            padding: 0;\n        }\n        \n        :host ::ng-deep .custom-drawer .p-drawer-header {\n            background: rgba(0, 0, 0, 0.8);\n            border-bottom: 1px solid rgba(255, 255, 255, 0.1);\n            color: white;\n        }\n\n        /* Enhanced focus styles for better accessibility */\n        button:focus-visible,\n        a:focus-visible {\n            outline: 2px solid rgba(255, 255, 255, 0.8);\n            outline-offset: 2px;\n        }\n    "],
-  "mappings": "AAEQ,MAAA,UAAA,CAAA,cAAA,CAAA,yBACI,CACJ,CAEA,MAAA,UAAA,CAJA,cAIA,CAAA,gBACI,WAAA,MACA,cAAA,IAAA,MAAA,KAAA,GAAA,CAAA,GAAA,CAAA,GAAA,CAAA,IACA,MAAA,IACJ,CAGA,MAAA,+BAEI,QAAA,IAAA,MAAA,KAAA,GAAA,CAAA,GAAA,CAAA,GAAA,CAAA,IACA,eAAA,GACJ",
-  "names": []
-}

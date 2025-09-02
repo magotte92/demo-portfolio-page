@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["scroll-navigation.ts"],
-  "sourcesContent": ["\n        .scroll-container {\n            scroll-behavior: smooth;\n            overflow-x: hidden;\n        }\n\n        @media (max-width: 768px) {\n            .scroll-container {\n                scroll-behavior: smooth;\n                -webkit-overflow-scrolling: touch;\n                overscroll-behavior-y: contain;\n            }\n        }\n    "],
-  "mappings": "AACQ,CAAA,iBACI,gBAAA,OACA,WAAA,MACJ,CAEA,OAAA,CAAA,SAAA,EAAA,OACI,CANJ,iBAOQ,gBAAA,OACA,2BAAA,MACA,sBAAA,OACJ,CACJ",
-  "names": []
-}

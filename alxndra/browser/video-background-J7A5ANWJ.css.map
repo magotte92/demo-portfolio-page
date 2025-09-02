@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["video-background.ts"],
-  "sourcesContent": ["\n        .video-background-container {\n            position: fixed;\n            top: 0;\n            left: 0;\n            width: 100vw;\n            height: 100vh;\n            z-index: -10;\n            overflow: hidden;\n        }\n        \n        .video-background {\n            position: absolute;\n            top: 50%;\n            left: 50%;\n            min-width: 100%;\n            min-height: 100%;\n            width: auto;\n            height: auto;\n            transform: translate(-50%, -50%);\n            object-fit: cover;\n            pointer-events: none;\n        }\n        \n        /* Ensure video covers full screen on all devices */\n        @media (max-aspect-ratio: 16/9) {\n            .video-background {\n                width: 100%;\n                height: auto;\n            }\n        }\n        \n        @media (min-aspect-ratio: 16/9) {\n            .video-background {\n                width: auto;\n                height: 100%;\n            }\n        }\n    "],
-  "mappings": "AACQ,CAAA,2BACI,SAAA,MACA,IAAA,EACA,KAAA,EACA,MAAA,MACA,OAAA,MACA,QAAA,IACA,SAAA,MACJ,CAEA,CAAA,iBACI,SAAA,SACA,IAAA,IACA,KAAA,IACA,UAAA,KACA,WAAA,KACA,MAAA,KACA,OAAA,KACA,UAAA,UAAA,IAAA,CAAA,MACA,WAAA,MACA,eAAA,IACJ,CAGA,OAAA,CAAA,gBAAA,EAAA,EAAA,CAAA,GACI,CAfJ,iBAgBQ,MAAA,KACA,OAAA,IACJ,CACJ,CAEA,OAAA,CAAA,gBAAA,EAAA,EAAA,CAAA,GACI,CAtBJ,iBAuBQ,MAAA,KACA,OAAA,IACJ,CACJ",
-  "names": []
-}
